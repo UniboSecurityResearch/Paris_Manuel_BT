@@ -1,7 +1,7 @@
 # Template for Unibo thesis
 _Change this!_
 
-**Author**: $NAME $FAMILYNAME
+**Author**: MANUEL PARIS
 
 **Year**: 2023
 
@@ -10,7 +10,12 @@ _Change this!_
 **Description**: This is a template for the Unibo thesis.
 
 ## How to use the project
-If present, write here how to use your project.
+1. If not already installed, install [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+2. Open a terminal inside the `project` directory
+3. Execute ```npm install```
+4. Wait for the project modules to install
+5. Execute ```npm run start```
+6. The project WebApp will open automatically in the browser
 
 ## How to use
 1. Change this README with the correct variables.
