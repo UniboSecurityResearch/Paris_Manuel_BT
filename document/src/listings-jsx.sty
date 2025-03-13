@@ -1,0 +1,18 @@
+\RequirePackage{listings}
+
+\lstdefinelanguage{JSX}{
+	keywords=[1]{events, on, returnValues, eth, Contract, getGasPrice, deploy, send, options, data},
+	keywordstyle=[1]\color{olive}\bfseries,
+	keywords=[2]{async, const, new},	
+	keywordstyle=[2]\color{blue}\bfseries,
+    keywords=[3]{await},	
+	keywordstyle=[3]\color{purple}\bfseries,
+	identifierstyle=\color{black},
+	sensitive=true,
+	comment=[l]{//},
+	morecomment=[s]{/*}{*/},
+	commentstyle=\color{gray}\ttfamily,
+	stringstyle=\color{red}\ttfamily,
+	morestring=[b]',
+	morestring=[b]"
+}
